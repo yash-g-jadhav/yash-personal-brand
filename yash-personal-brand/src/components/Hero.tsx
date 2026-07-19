@@ -124,6 +124,44 @@ export function Hero() {
           </motion.a>
         </motion.div>
 
+        {/* Current Status Row */}
+        <motion.div
+          variants={itemVariants}
+          className="pt-12 sm:pt-16 border-t border-border/30"
+        >
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
+              className="flex flex-col items-center sm:items-start gap-2"
+            >
+              <span className="text-xs font-semibold text-accent uppercase tracking-widest">Currently Building</span>
+              <p className="text-xs sm:text-sm text-muted-foreground">Flood Prediction System</p>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.75, duration: 0.8 }}
+              className="flex flex-col items-center sm:items-start gap-2"
+            >
+              <span className="text-xs font-semibold text-accent uppercase tracking-widest">Learning</span>
+              <p className="text-xs sm:text-sm text-muted-foreground">Distributed Systems</p>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.9, duration: 0.8 }}
+              className="flex flex-col items-center sm:items-start gap-2"
+            >
+              <span className="text-xs font-semibold text-accent uppercase tracking-widest">Training</span>
+              <p className="text-xs sm:text-sm text-muted-foreground">5K in under 25 mins</p>
+            </motion.div>
+          </div>
+        </motion.div>
+
         {/* Scroll indicator */}
         <motion.div 
           variants={itemVariants}

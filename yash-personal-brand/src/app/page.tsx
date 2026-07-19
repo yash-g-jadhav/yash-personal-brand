@@ -5,6 +5,7 @@ import { BuiltThings } from '@/components/BuiltThings'
 import { Ideas } from '@/components/Ideas'
 import { OptimisingFor } from '@/components/OptimisingFor'
 import { Now } from '@/components/Now'
+import { BeyondTheScreen } from '@/components/BeyondTheScreen'
 import { Contact } from '@/components/Contact'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Ideas />
       <OptimisingFor />
       <Now/>
+      <BeyondTheScreen />
       <Contact />
     </main>
   )

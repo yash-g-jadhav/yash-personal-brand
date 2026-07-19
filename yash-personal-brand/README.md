@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Project North Star
 
-## Getting Started
+> Building systems, exploring ideas, and creating things that matter.
 
-First, run the development server:
+Welcome to **Project North Star** — my digital home on the internet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This isn't just a portfolio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It's a living project where I document what I build, what I learn, and how I grow as a builder, engineer, and aspiring entrepreneur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instead of waiting for everything to be perfect, I've chosen to **build in public**. Every update, every redesign, and every new project reflects another step in my journey.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Vision
 
-To learn more about Next.js, take a look at the following resources:
+To create a digital home that grows alongside me.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A place where I can share my projects, ideas, experiments, and lessons while continuously improving both my craft and myself.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ What's Inside
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 💻 Projects I'm building
+- 💡 Ideas and insights
+- 🛠️ Experiments
+- 📚 Things I'm learning
+- 🎯 Current goals
+- 🌱 Personal growth
+- 📖 My journey as a builder
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Built With
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+- Framer Motion
+- Lucide React
+- Vercel / GitHub Pages
+
+---
+
+## 📈 Build in Public
+
+Project North Star is intentionally built in public.
+
+You'll see frequent improvements, new features, refined writing, and better design over time.
+
+Current roadmap includes:
+
+- Better project storytelling
+- Builder dashboard
+- Personal journey timeline
+- Essays & writing
+- Interactive experiments
+- Accessibility improvements
+- Performance optimizations
+
+---
+
+## 📌 Philosophy
+
+> Curiosity over credentials.
+
+> Progress over perfection.
+
+> Story over résumé.
+
+> Impact over complexity.
+
+---
+
+## 🤝 Let's Connect
+
+I'm always happy to connect with people who enjoy building, learning, solving problems, or discussing technology and entrepreneurship.
+
+If something on this website resonates with you, feel free to reach out.
+
+---
+
+## ⭐ Project Status
+
+**Actively under development.**
+
+This website evolves continuously as I learn, build, and grow.
+
+Thanks for stopping by.
+
+See you in the next commit. 🚀

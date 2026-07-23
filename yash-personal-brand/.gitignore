@@ -38,4 +38,10 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+
+# Turbopack
+/.turbo/
+
+# Windows
+Thumbs.db
+desktop.ini

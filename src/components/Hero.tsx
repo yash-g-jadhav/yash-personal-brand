@@ -1,7 +1,7 @@
 'use client'
 
 import { ArrowDown } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -12,38 +12,41 @@ const containerVariants = {
       delayChildren: 0.1,
     },
   },
-}
+} satisfies Variants
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: 'easeOut' },
+    transition: {
+    duration: 0.8,
+    ease: [0.25, 0.1, 0.25, 1],
   },
-}
+  },
+} satisfies Variants
 
 const headlineVariants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1, ease: 'easeOut' },
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
   },
-}
+} satisfies Variants
 
 const buttonVariants = {
   hidden: { opacity: 0, scale: 0.95 },
   visible: { 
     opacity: 1, 
     scale: 1,
-    transition: { duration: 0.6, ease: 'easeOut' }
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }
   },
   hover: {
     y: -2,
     transition: { duration: 0.3 }
   }
-}
+} satisfies Variants
 
 export function Hero() {
   return (
@@ -109,6 +112,7 @@ export function Hero() {
           <motion.a
             href="#work"
             variants={buttonVariants}
+            initial="visible"
             whileHover="hover"
             className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-accent text-accent-foreground font-medium transition-all duration-300 hover:shadow-lg hover:shadow-accent/50"
           >
@@ -117,6 +121,7 @@ export function Hero() {
           <motion.a
             href="#ideas"
             variants={buttonVariants}
+            initial="visible"
             whileHover="hover"
             className="inline-flex items-center justify-center px-8 py-4 rounded-lg border border-border text-foreground font-medium hover:bg-secondary/50 transition-all duration-300"
           >

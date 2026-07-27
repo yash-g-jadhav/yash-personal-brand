@@ -1,7 +1,7 @@
 'use client'
 
 import { ExternalLink, GitBranch } from 'lucide-react'
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 
 const projects = [
   {
@@ -55,26 +55,29 @@ const containerVariants = {
       delayChildren: 0.1,
     },
   },
-}
+} satisfies Variants
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: 'easeOut' },
+    transition: {
+      duration: 0.5,
+      ease: [0.25, 0.1, 0.25, 1],
+    },
   },
-}
+} satisfies Variants
 
 const cardHoverVariants = {
   rest: { y: 0 },
   hover: { y: -8 },
-}
+} satisfies Variants
 
 const borderVariants = {
   rest: { borderColor: 'rgb(42, 42, 42)' },
   hover: { borderColor: 'rgb(255, 122, 0)' },
-}
+} satisfies Variants
 
 export function BuiltThings() {
   return (
@@ -111,12 +114,12 @@ export function BuiltThings() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              whileHover="hover"
-              initial="rest"
               className="group"
             >
               <motion.div
                 variants={cardHoverVariants}
+                initial="rest"
+                whileHover="hover"
                 className="h-full"
               >
                 <motion.div

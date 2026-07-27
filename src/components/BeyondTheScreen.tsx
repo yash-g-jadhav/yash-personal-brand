@@ -1,12 +1,13 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 import { Goal, Zap, Waves, Dumbbell, Camera, Book, Music, PenTool } from 'lucide-react'
+import type { LucideIcon } from "lucide-react"
 
 interface Hobby {
   label: string
   description: string
-  icon: any
+  icon: LucideIcon
 }
 
 const hobbies: Hobby[] = [
@@ -61,21 +62,31 @@ const containerVariants = {
       delayChildren: 0.1,
     },
   },
-}
+} satisfies Variants
 
 const itemVariants = {
-  hidden: { opacity: 0, scale: 0.92 },
+  hidden: {
+    opacity: 0,
+    scale: 0.92,
+  },
   visible: {
     opacity: 1,
     scale: 1,
-    transition: { duration: 0.5, ease: 'easeOut' },
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+    },
   },
-}
+} satisfies Variants
 
 const hoverVariants = {
-  rest: { y: 0 },
-  hover: { y: -8 },
-}
+  rest: {
+    y: 0,
+  },
+  hover: {
+    y: -8,
+  },
+} satisfies Variants
 
 export function BeyondTheScreen() {
   return (
@@ -115,18 +126,18 @@ export function BeyondTheScreen() {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                whileHover="hover"
-                initial="rest"
               >
                 <motion.div
                   variants={hoverVariants}
+                  initial="rest"
+                  whileHover="hover"
                   className="h-full"
                 >
-                  <div className="h-full p-6 sm:p-7 rounded-lg border border-border/40 hover:border-accent/50 bg-card/20 hover:bg-card/40 backdrop-blur-sm transition-all duration-400 flex flex-col items-start gap-4 group cursor-default">
+                  <div className="h-full p-6 sm:p-7 rounded-lg border border-border/40 hover:border-accent/50 bg-card/20 hover:bg-card/40 backdrop-blur-sm transition-all duration-300 flex flex-col items-start gap-4 group cursor-default">
                     {/* Icon badge */}
                     <motion.div 
                       className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center group-hover:bg-accent/15 transition-colors duration-300"
-                      whileHover={{ scale: 1.1 }}
+                      whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.3 }}
                     >
                       <Icon className="w-6 h-6 text-accent" />

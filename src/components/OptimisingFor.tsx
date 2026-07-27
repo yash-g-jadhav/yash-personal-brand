@@ -89,12 +89,12 @@ export function OptimisingFor() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              whileHover="hover"
-              initial="rest"
             >
               <motion.div
                 variants={hoverVariants}
-                className="h-full"
+                initial="rest"
+                whileHover="hover"
+                className="h-full p-6 sm:p-8 rounded-xl border border-border/50 hover:border-accent/40 bg-card/30 hover:bg-card/50 backdrop-blur-sm transition-all duration-400 flex flex-col group cursor-default"
               >
                 <div className="h-full p-6 sm:p-8 rounded-xl border border-border/50 hover:border-accent/40 bg-card/30 hover:bg-card/50 backdrop-blur-sm transition-all duration-400 flex flex-col group cursor-default">
                   {/* Label with improved typography hierarchy */}

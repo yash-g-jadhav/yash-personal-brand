@@ -5,44 +5,34 @@ import { motion, type Variants } from 'framer-motion'
 
 const projects = [
   {
-    title: 'AI Task Manager',
-    challenge: 'Teams were drowning in tasks without clear priorities, struggling to focus on high-impact work.',
-    approach: 'Built an intelligent system using LLMs to analyze tasks, context, and team capacity to auto-prioritize.',
-    outcome: 'Reduced decision fatigue by 60% and helped teams complete 40% more high-priority tasks.',
-    learning: 'Understanding user workflows matters more than raw AI capability. Simplicity wins.',
-    tags: ['Next.js', 'AI/ML', 'Claude API'],
+    title: 'Project North Star',
+    challenge: 'Built a personal website with Next.js, Tailwind CSS, and Framer Motion featuring my portfolio, blog, and projects.',
+    approach: 'Created a hub for my personal brand that helps visitors explore my work and connect with me.',
+    outcome: 'The website serves as a central hub for my personal brand, allowing visitors to explore my work, read my thoughts, and connect with me. It has received positive feedback from peers and potential collaborators.',
+    learning: 'A personal website is more than a portfolio—it\'s a way to tell your story and reflect your personality through design and development.',
+    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'React'],
     link: '#',
-    github: '#'
+    github: 'https://github.com/yash-g-jadhav/yash-personal-brand'
   },
   {
-    title: 'Real-time Analytics Dashboard',
-    challenge: 'E-commerce teams needed instant insights into sales metrics but were refreshing dashboards manually.',
-    approach: 'Created a WebSocket-powered platform with real-time updates and intelligent alerting for anomalies.',
-    outcome: 'Enabled teams to catch issues 85% faster and make data-driven decisions in real-time.',
-    learning: 'Real-time data is only valuable if acted upon immediately. Speed and clarity are interdependent.',
-    tags: ['React', 'WebSockets', 'Node.js', 'PostgreSQL'],
+    title: 'Inventory Management System',
+    challenge: 'Build a database-driven system to manage products, inventory, warehouses, and orders with data integrity.',
+    approach: 'Created a normalized MySQL database, implemented CRUD operations in Python, and developed a Tkinter-based GUI.',
+    outcome: 'Delivered a desktop app with secure login, inventory and order management, low-stock alerts, and MySQL integration.',
+    learning: 'Strengthened skills in database design, GUI development, and user-focused system design.',
+    tags: ['Python', 'MySQL', 'Tkinter', 'ERDPlus'],
     link: '#',
-    github: '#'
+    github: 'https://github.com/yash-g-jadhav/Inventory-Management-System'
   },
   {
-    title: 'Open-source CLI Tool',
-    challenge: 'Developers faced friction in their build workflows, losing hours to repetitive configuration tasks.',
-    approach: 'Built an intuitive CLI that abstracted complexity while giving power users full control.',
-    outcome: 'Grew to 5K+ GitHub stars, adopted by thousands of developers shipping faster.',
-    learning: 'Great developer tools are about reducing cognitive load, not adding features. Every command matters.',
-    tags: ['TypeScript', 'Node.js', 'CLI'],
+    title: 'Flood Prediction and Warning System',
+    challenge: 'Build a lightweight system for hyperlocal flood risk assessment using real-time weather data with offline reliability.',
+    approach: 'Developed a Flask application with rule-based flood risk scoring, live radar maps, reverse geocoding, Telegram alerts, and synthetic data fallback.',
+    outcome: 'Delivered a prototype providing real-time flood risk analysis, interactive rainfall visualization, and automated alerts.',
+    learning: 'Improved skills in API integration, geospatial visualization, risk modeling, fault-tolerant system design, and full-stack web development.',
+    tags: ['Python', 'Flask', 'JavaScript', 'HTML', 'CSS', 'Telegram API', 'OpenWeatherMap API'],
     link: '#',
-    github: '#'
-  },
-  {
-    title: 'Founding Member of StartupX',
-    challenge: 'The market needed a solution for enterprise workflows, but existing tools were bloated and slow.',
-    approach: 'Led product strategy focusing on simplicity, speed, and deep integration with existing tools.',
-    outcome: 'Grew user base to 100+ enterprise customers with strong retention rates.',
-    learning: 'Building products is 10% idea, 90% execution and knowing your customer deeply.',
-    tags: ['Leadership', 'Product', 'B2B SaaS'],
-    link: '#',
-    github: '#'
+    github: 'https://github.com/yash-g-jadhav/Flood-Prediction-and-Warning-System'
   }
 ]
 
@@ -94,7 +84,7 @@ export function BuiltThings() {
           <h2 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-4">
             Things I&apos;ve Built
           </h2>
-          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl leading-relaxed">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-6xl leading-relaxed">
             A selection of projects I&apos;m proud of. Each one told a unique story about building, shipping, and learning from real users.
           </p>
         </motion.div>

@@ -27,7 +27,7 @@ export function WhyIBuild() {
           <h2 className="font-heading text-4xl sm:text-5xl font-bold text-foreground mb-4">
             Why I Build
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl">
+          <p className="text-lg text-muted-foreground max-w-6xl">
             My approach to building is rooted in curiosity, continuous learning, and a genuine desire to create value.
           </p>
         </div>

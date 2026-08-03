@@ -11,33 +11,9 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: 'Building for Impact: Why Founder Mindset Matters',
-    excerpt: 'Exploring how thinking like a founder changes the way you approach problems, build products, and create value.',
-    date: 'Dec 15, 2024',
-    category: 'Entrepreneurship',
-    slug: 'founder-mindset',
-    readTime: '5 min'
-  },
-  {
-    title: 'The Art of Learning in Public',
-    excerpt: 'Why sharing your learning journey isn&apos;t about being an expert—it&apos;s about growing with your community.',
-    date: 'Dec 8, 2024',
-    category: 'Learning',
-    slug: 'learning-in-public',
-    readTime: '6 min'
-  },
-  {
-    title: 'Technology as a Tool for Human Connection',
-    excerpt: 'How builders can create technology that brings people together instead of driving them apart.',
-    date: 'Nov 30, 2024',
-    category: 'Technology',
-    slug: 'tech-human-connection',
-    readTime: '7 min'
-  },
-  {
-    title: 'Optimizing for Sustainable Growth',
-    excerpt: 'Building businesses and projects that last requires thinking beyond rapid scaling to lasting value.',
-    date: 'Nov 22, 2024',
+    title: '*Articles Coming Soon!*',
+    excerpt: 'I\'m currently working on writing insightful articles about building, learning, and creating meaningful technology. Stay tuned for updates!',
+    date: 'Aug 22, 2026',
     category: 'Strategy',
     slug: 'sustainable-growth',
     readTime: '8 min'

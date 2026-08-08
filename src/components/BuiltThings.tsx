@@ -15,6 +15,16 @@ const projects = [
     github: 'https://github.com/yash-g-jadhav/yash-personal-brand'
   },
   {
+    title: 'Retinal-IQ',
+    challenge: 'AI-assisted diabetic retinopathy screening and progression-risk assessment.',
+    approach: 'Combined EfficientNet-B0 retinal classification with Random Forest clinical risk prediction, exposed through FastAPI and presented through a Next.js dashboard.',
+    outcome: '~81% validation F1 for DR classification and 76% test accuracy/F1 for risk prediction, with automated clinical recommendations and PDF reporting.',
+    learning: 'End-to-end ML deployment, FastAPI, Next.js integration, model serving, interpretability, and production debugging.',
+    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'React'],
+    link: '#',
+    github: 'https://github.com/yash-g-jadhav/Retinal-IQ'
+  },
+  {
     title: 'Inventory Management System',
     challenge: 'Build a database-driven system to manage products, inventory, warehouses, and orders with data integrity.',
     approach: 'Created a normalized MySQL database, implemented CRUD operations in Python, and developed a Tkinter-based GUI.',

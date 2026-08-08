@@ -20,7 +20,7 @@ const projects = [
     approach: 'Combined EfficientNet-B0 retinal classification with Random Forest clinical risk prediction, exposed through FastAPI and presented through a Next.js dashboard.',
     outcome: '~81% validation F1 for DR classification and 76% test accuracy/F1 for risk prediction, with automated clinical recommendations and PDF reporting.',
     learning: 'End-to-end ML deployment, FastAPI, Next.js integration, model serving, interpretability, and production debugging.',
-    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'React'],
+    tags: ['Next.js', 'React', 'Tailwind CSS', 'FastAPI', 'PyTorch', 'scikit-learn', 'CNN'],
     link: '#',
     github: 'https://github.com/yash-g-jadhav/Retinal-IQ'
   },
